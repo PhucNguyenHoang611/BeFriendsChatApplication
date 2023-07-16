@@ -1,0 +1,106 @@
+.register-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    overflow: auto;
+}
+
+.register-form {
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.register-input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.register-logo {
+    width: 150px;
+    height: 160px;
+}
+
+@media screen and (min-width:576px){
+    .register-logo {
+        width: 200px;
+        height: 210px;
+    }
+
+    .register-name {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .reg-first-name {
+        width: 40%;
+    }
+    
+    .reg-last-name {
+        width: 55%;
+    }
+    
+    .reg-error {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .register-form {
+        width: 100%;
+    }
+
+    .register-name {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .reg-first-name {
+        width: 100%;
+    }
+
+    .reg-last-name {
+        width: 100%;
+    }
+
+    .reg-error {
+        margin-bottom: 10px;
+    }
+}
+
+
+.reg-input {
+    width: 100%;
+    border: 3px solid #bfac00;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.register-button {
+    background-color: black !important;
+    color: white;
+    font-style: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}

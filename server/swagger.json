@@ -1,0 +1,17 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "BE FRIENDS - Chat Application",
+        "description": "BE FRIENDS - Chat Application API",
+        "version": "1.0.0"
+    },
+    "schema": [
+        "http",
+        "https"
+    ],
+    "servers": [
+        {
+            "url": "http://localhost:5000/"
+        }
+    ]
+}
